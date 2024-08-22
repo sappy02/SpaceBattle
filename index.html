@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Battle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Space Battle</h1>
+  <div class="game-info">
+    <div>Round: <span class="rndCnt">1</span></div>
+    <div>Player Health: <div class="playerHealth"></div></div>
+    <div>Alien Health: <div class="alienHealth"></div></div>
+    <div>Turn: <span class="turn"></span></div>
+  </div>
+  <div class="hero">
+    <div class="player-stats">
+      <h2>USS Assembly</h2>
+      <p>Hull: <span class="player-hull">20</span></p>
+      <p>Firepower: <span class="player-firepower">5</span></p>
+      <p>Accuracy: <span class="player-accuracy">0.7</span></p>
+    </div>
+  </div>
+  <div class="p1">
+    <div class="alien-stats">
+      <h2>Alien Ship</h2>
+      <p>Hull: <span class="alien-hull">-</span></p>
+      <p>Firepower: <span class="alien-firepower">-</span></p>
+      <p>Accuracy: <span class="alien-accuracy">-</span></p>
+    </div>
+  </div>
+  <div class="controls">
+    <button class="starter">Start Game</button>
+    <button class="starter">Attack</button>
+    <button class="starter">Retreat</button>
+    <button class="starter">Add Round</button>
+    <button class="starter">Toggle Turn</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
